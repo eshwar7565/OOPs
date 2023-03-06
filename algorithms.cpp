@@ -12,4 +12,5 @@ int main()
     int min= *min_element(v.begin(),v.end());
         int max= *max_element(v.begin(),v.end());
    int sum = accumulate(v.begin(),v.end(),0);
+   int ct = count(v.begin(),v.end(),6);
 }
